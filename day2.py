@@ -11,6 +11,9 @@ Ctrl+K           Ctrl+S Keyboard Shortcuts
 Basic editing
 
 
+Ctrl+/               Toggle line comment   " # "
+
+
 Ctrl+X               Cut line (empty selection)
 Ctrl+C               Copy line (empty selection)
 Alt+ ↑ / ↓           Move line up/down

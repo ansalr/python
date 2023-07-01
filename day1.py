@@ -1,25 +1,18 @@
-a = [25, 22, 39, 36, 52]
-b = []
-c = len(a)
-d = 0
-
-
-while d<=c:
-    f= len(a)
-    if f !=0:
-        d+=1
-        e = max(a)
-        b.append(e)
-        a.remove(e)
-        
-    else:
-        print(b)
-        break
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
     
-   
-
-
-
-
-
-      
+    for i in student_marks:
+        if i == query_name:
+            average = 0.0
+            for j in student_marks[i]:
+                
+                average += j
+            
+            print('{:.2f}'.format(float(average/len(student_marks[i]))))
+       
