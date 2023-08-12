@@ -183,6 +183,16 @@ def range_a(a,b,c):
     print(list(range(a,c)))
     print(list(range(b,c)))
  # range_a(0,1,10)
+'''
+number=input()
+temp = []
+for i in number:
+    temp.append(i)
+out = ' '.join(str(i) for i in temp)
+print(out)
+'''
+
+
 def for_loop():
     student_name ="ansal"
     marks = {'ansal' : 95 , 'suresh' : 90 ,'raj' : 99}
@@ -230,9 +240,9 @@ class student:
         print('student 1:',self.name,'age : ',self.age)
 
 
- # std1 = student('ansal',19)
- # std2 = student('vignesh',20)
- # 
+std1 = student('ansal',19)
+std2 = student('vignesh',20)
+
  # std1.print_list()
  # std2.print_list()
 
@@ -248,17 +258,17 @@ class home:
         print(self.name,self.deprt)
 
 
-  #  ex1 = home("ansal",19)
-  #  ex2 = home("aravint",20)
-  #  
-  #  ex1.print_list()
-  #  ex2.print_list()
+ex1 = home("ansal",19)
+ex2 = home("aravint",20)
+
+#  ex1.print_list()
+#  ex2.print_list()
 class hi:
     pass
     # we should not keep our class empty  / to keep empty class use pass comment
 
 
- # a = hi()
+a = hi()
  # print(id(a))
 
 class constructor_self():
@@ -295,13 +305,28 @@ class dog:
         else:
             return False
 
-  # tommy = dog(5,'gold')
-  # piku = dog(3,'black')
-  # print(tommy)
-  # tommy.details()
-  # piku.details()
-  # if tommy.compare(piku):
-      # print('they are same')
-  # else :
-      # print('they are diffrent')
+tommy = dog(5,'gold')
+piku = dog(3,'black')
+# print(tommy)
+# tommy.details()
+# piku.details()
+# if tommy.compare(piku):
+    # print('they are same')
+# else :
+    # print('they are diffrent')
+
+class hack1:
+    def print_formatted(number):
+        width = len(bin(number)) - 2  
+    
+        for i in range(1, number + 1):
+            decimal_format = "{:>{width}d}".format(i, width=width)
+            octal_format = "{:>{width}o}".format(i, width=width)
+            hexadecimal_format = "{:>{width}X}".format(i, width=width)
+            binary_format = "{:>{width}b}".format(i, width=width)
+    
+            print(f"{decimal_format} {octal_format} {hexadecimal_format} {binary_format}")
+
+c1 = hack1
+# c1.print_formatted(10)
 
