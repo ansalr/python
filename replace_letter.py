@@ -47,3 +47,5 @@ ch1 = 'a'
 ch2 = 'p'
 
 replace(s,ch1,ch2)
+
+# paales
