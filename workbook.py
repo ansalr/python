@@ -1,9 +1,17 @@
-char = input()
-def check(char):
-    b= ["a"or"e"or"i"or"o"or"u"]
-    if char in b:
-        return "Vowel"
+def NumberOfCarries(n1,n2):
+    count=0
+    carry = 0
+    if len(n1) <= len(n2):
+        l= len(n1)-1
     else:
-        return "Consonant"
-a = check(char)
-print(a)
+        l = len(n2)-1
+    for i in range(l+1):
+        temp = int(n1[l-i])+int(n2[l-i])+carry
+        if len(str(temp))>1:
+            count+=1
+            carry = 1
+        else:
+            carry = 0
+    return count+carry
+
+print(NumberOfCarries(str(55),str(555)))
