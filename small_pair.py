@@ -39,10 +39,14 @@ Sample Output -21  """
 
 def ProductSmallestPair(sum, arr):
 
-    a = sorted(arr)
-    sum_arr = a[0]+a[1]
-    if sum_arr <= sum:
-        return a[0]*a[1]
+    if (len(arr))<=2 or sum <=2:
+        return -1
+    else:
+
+        a = sorted(arr)
+        sum_arr = a[0]+a[1]
+        if sum_arr <= sum:
+            return a[0]*a[1]
     
 
 sum = int(input())
