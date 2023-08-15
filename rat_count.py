@@ -21,18 +21,21 @@ Total amount of food required for all rats = r * unit => 7 * 2 = 14.
 The amount of food in 1st houses = 2+8+3+5 = 18. Since, amount of food in 1st 4 houses is sufficient for all the rats. Thus, output is 4."""
 
 def rat_count(r,unit,n,arr):
-
+    
     feed_need = r*unit
     feed = 0
+    if len(arr)==0:
+        return -1
+
     for i in range(n):
         if feed<feed_need:
             feed+=arr[i]
         else:
             return i
-    
+    return 0
 
 
-r = 7
+r = 40
 unit = 2
 n = 8
 arr = [2,8,3,5,7,4,1,2]
