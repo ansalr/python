@@ -1,7 +1,7 @@
 def greet(name, question):
     
-    return f"Hello, " + name + "! How's it " + question + "?"
-a = greet("ansal","kk")
+    return f"Hello, " + name + "! How's is " + question + "?"
+a = greet("ansal","health")
 print(a)
 
 name = 'Hi ansal'
