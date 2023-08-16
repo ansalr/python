@@ -1,17 +1,13 @@
-def NumberOfCarries(n1,n2):
-    count=0
-    carry = 0
-    if len(n1) <= len(n2):
-        l= len(n1)-1
-    else:
-        l = len(n2)-1
-    for i in range(l+1):
-        temp = int(n1[l-i])+int(n2[l-i])+carry
-        if len(str(temp))>1:
-            count+=1
-            carry = 1
-        else:
-            carry = 0
-    return count+carry
+arr = [345,604,321,433,704,470,808,718,517,811]
+empty = []
 
-print(NumberOfCarries(str(55),str(555)))
+for i in range(2):
+        count = 0  
+        len_arr,r_range = map(int,input().split())
+        for val in arr:
+            
+            if (val>=len_arr and val<=r_range):
+                        count+=1
+        empty.append(count)
+
+print(empty)
