@@ -26,4 +26,3 @@ def second_grade():
 
 
 second_grade()
-
