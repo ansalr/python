@@ -315,6 +315,7 @@ piku = dog(3,'black')
 # else :
     # print('they are diffrent')
 
+    
 class hack1:
     def print_formatted(number):
         width = len(bin(number)) - 2  
@@ -330,3 +331,6 @@ class hack1:
 c1 = hack1
 # c1.print_formatted(10)
 
+x = 3.4565678
+round_num = round(x,2)
+print(f"{round_num}")
