@@ -1,15 +1,14 @@
 def greet(name, question):
     
-    return f"Hello, " + name + "! How's is your " + question + "?"
+    return f"Hello, " + name + "! How's is " + question + "?"
 a = greet("ansal","health")
 print(a)
 
-name = "ansal roi"
+name = 'Hi ansal'
 
 print(len(name))
 print(name.find('a'))
 print(name.capitalize())
-print(name.title())
 print(name.upper())
 print(name.lower())
 print(name.isdigit())
