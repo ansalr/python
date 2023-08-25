@@ -55,9 +55,7 @@ def end_h(n,width,s):
 
 
 
-n = int(input("num : "))
-while n%2==0 :
-    n = int(input("num : "))
+n = 5
 s = 'H'
 text_align(n,s)
 
