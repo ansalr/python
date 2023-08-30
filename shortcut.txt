@@ -16,3 +16,20 @@ cp  -> to duplicate a specific file and rename
 mv  -> change file name
     mv sample1.py newname.py
 
+
+
+git command :
+
+      git clone
+      
+
+
+
+create virtual environment
+
+    install  -> pip install virtualenv
+    create environment -> python -m venv <venv_name>   
+    avtivate -> venv\Scripts\activate
+    deactivate -> deactivate
+
+
