@@ -334,3 +334,19 @@ c1 = hack1
 x = 3.4565678
 round_num = round(x,2)
 print(f"{round_num}")
+
+
+def dictionary()   
+    student = {
+    
+        "bike": "2 wheel",    
+        "cycle" : "2 wheel",    
+        "motorcycle" : "2 wheel",
+        "car": "4 wheel",    
+        "van" : "6 wheel",    
+    }
+    
+   
+    for details in student:    
+        print(details,student[details],sep=" : ")
+# dictionary()
