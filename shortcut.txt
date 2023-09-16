@@ -33,3 +33,7 @@ create virtual environment
     deactivate -> deactivate
 
 
+
+
+value error :
+    it happens when datatype has been used incorrectly
