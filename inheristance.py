@@ -8,7 +8,7 @@ class pearson(object):
         print(self.name)
         print(self.idnum)
        
-    def details(self):
+    def details(self): 
         print(f"name : {self.name}")
         print(f"id number : {self.idnum}")
        
@@ -25,5 +25,3 @@ class employee(pearson):
         print(f"post {self.post}")
        
 a = employee("ansal",14423,200000, "Intern")
-a.display()
-a.details()
