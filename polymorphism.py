@@ -1,4 +1,4 @@
-class Birds:  
+class Birds(object):  
     def intro1(self):  
         print("There are multiple types of birds in the world.")  
     def flight1(self):  

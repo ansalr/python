@@ -34,7 +34,7 @@ YZ
 
 """
 
-import textwrap
+
 
 def wrap(string, max_width):
     for i in range(0,len(string),max_width):
@@ -44,6 +44,6 @@ def wrap(string, max_width):
         else:
             return value   
 
-string, max_width = " ABCDEFGHIJKLIMNOQRSTUVWXYZ",4
+string, max_width = "ABCDEFGHIJKLIMNOQRSTUVWXYZ",4
 result = wrap(string, max_width)
 print(result)

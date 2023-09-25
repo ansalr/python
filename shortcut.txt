@@ -1,3 +1,5 @@
+https://www.crio.do/blog/vs-code-shortcuts/
+
 
 
 Ctrl+/               Toggle line comment   " # "
@@ -5,6 +7,13 @@ Alt+ ↑ / ↓           Move line up/down
 Shift+Alt + ↓ / ↑    Copy line up/down
 Ctrl+Shift+K         Delete line
 Home /End            Go to beginning/end of line
+Ctrl+Shift+left/right arrow  select word by word
+Ctrl+B     Toggle sidebar
+Ctrl+Alt left/right arrow   shring or expand
+Ctrl+K    code formatting
+Ctrl+L    seclect current line
+Ctrl+tab  jump one file to another 
+
 
 Terminal command
 ls  -> to view file in folder
