@@ -43,7 +43,8 @@ Object Oriented Programming :
      --> Abstraction
 
 Class :
-A class is a collection of instance variables and related methods that define a particular object type. You can think of a class as an object's blueprint or template. Attributes are the names given to the variables that make up a class. A class instance with a defined set of properties is called an object. As a result, the same class can be used to construct as many objects as needed.
+A class is a collection of instance variables and related methods that define a particular object type. You can think of a class as an object's blueprint or template. 
+Attributes are the names given to the variables that make up a class. A class instance with a defined set of properties is called an object. As a result, the same class can be used to construct as many objects as needed.
 
 Encapsulation :
             Encapsulation is the process of preventing clients from accessing certain properties, which can only be accessed through specific methods.
@@ -56,7 +57,8 @@ Encapsulation :
                             self.__c = 10
 
 Inheritance :
-          It is a mechanism that allows you to create a hierarchy of classes that share a set of properties and methods by deriving a class from another class. Inheritance is the capability of one class to derive or inherit the properties from another class. 
+          It is a mechanism that allows you to create a hierarchy of classes that share a set of properties and methods by deriving a class from another class. 
+          Inheritance is the capability of one class to derive or inherit the properties from another class. 
 
 # Python code to demonstrate how parent constructors
 # are called.
@@ -92,7 +94,9 @@ Polimorphism :
               The word polymorphism means having many forms. In programming, polymorphism means the same function name (but different signatures) being used for different types. The key difference is the data types and number of arguments used in function.
 
 Abstraction :
-                Abstraction is a fundamental concept in object-oriented programming that allows us to hide the implementation details of a program from the user. In Python, abstraction can be achieved through abstract classes and interfaces. Abstract classes are classes that cannot be instantiated and are used to define a blueprint for other classes to follow. Interfaces, on the other hand, are used to define a set of methods that must be implemented by any class that implements the interface.
+                Abstraction is a fundamental concept in object-oriented programming that allows us to hide the implementation details of a program from the user. 
+In Python, abstraction can be achieved through abstract classes and interfaces. Abstract classes are classes that cannot be instantiated and are used to define a blueprint for other classes to follow. 
+Interfaces, on the other hand, are used to define a set of methods that must be implemented by any class that implements the interface.
 
 Sorting :
 https://www.baeldung.com/cs/choose-sorting-algorithm
