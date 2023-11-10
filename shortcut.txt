@@ -29,7 +29,9 @@ mv  -> change file name
 
 git command :
 
-      git clone
+    git config --help
+    git config -help 
+    git clone
       
 
 
