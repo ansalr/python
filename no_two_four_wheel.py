@@ -1,4 +1,4 @@
-"""Problem Statement – An automobile company manufactures both a two wheeler (TW) and a four wheeler (FW). A company manager wants to make the production of both types of vehicle according to the given data below:
+"""Problem Statement - An automobile company manufactures both a two wheeler (TW) and a four wheeler (FW). A company manager wants to make the production of both types of vehicle according to the given data below:
 
 1st data, Total number of vehicle (two-wheeler + four-wheeler)=v
 2nd data, Total number of wheels = W
@@ -20,8 +20,8 @@ V<W
 Print “INVALID INPUT” , if inputs did not meet the constraints.
 The input format for testing 
 The candidate has to write the code to accept two positive numbers separated by a new line.
-First Input line – Accept value of V.
-Second Input line- Accept value for W.
+First Input line - Accept value of V.
+Second Input line - Accept value for W.
 The output format for testing 
 Written program code should generate two outputs, each separated by a single space character(see the example)
 Additional messages in the output will result in the failure of test case"""

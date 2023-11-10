@@ -26,9 +26,9 @@ def abs_diff(num,diff):
             
             diff_arr.append(j)
     
-    sort_arr = set(diff_arr)
+    
    
-    return len(sort_arr)
+    return len(diff_arr)
 
 
 print(abs_diff(13,2))

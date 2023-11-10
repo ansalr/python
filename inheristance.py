@@ -5,12 +5,12 @@ class pearson(object):
         self.idnum = idnum
        
     def display(self):
-        print(self.name)
         print(self.idnum)
+        print(self.name)
        
     def details(self): 
-        print(f"name : {self.name}")
         print(f"id number : {self.idnum}")
+        print(f"name : {self.name}")
        
 class employee(pearson):
     def __init__(self,name,idnum,salary,post):

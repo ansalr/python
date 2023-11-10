@@ -1,15 +1,13 @@
 """
 You are given a set  and  other sets.
 Your job is to find whether set  is a strict superset of each of the  sets.
-
 Print True, if  is a strict superset of each of the  sets. Otherwise, print False.
-
 A strict superset has at least one element that does not exist in its subset.
 
 Example
 Set is a strict superset of set.
 Set is not a strict superset of set.
-Set is not a strict superset of set.
+
 
 Input Format
 
@@ -32,8 +30,8 @@ Sample Output 0
 False
 Explanation 0
 
-Set  is the strict superset of the set but not of the set because  is not in set .
-Hence, the output is False.
+Set A is the strict superset of the set ([1, 2, 3, 4, 5]) but not of the set ([100, 11, 12])
+because 100 is not in set A. Hence, the output is False.
 """
 
 def superset():

@@ -23,14 +23,6 @@ Size: 11 x 33
     ---------------.|.---------------
 """
 
-def main():
-    n,m = map(int,input().split())
-    p = n//2
-    e=top(n,m,p)
-    bottom(e,m,p)
-
-    
-    
 def top(n,m,p):
        
     mult = 1
@@ -46,6 +38,11 @@ def bottom(mult,m,p):
         mult-=2
         a = ".|."*mult
         print(a.center(m,'-'))
-    
+
+def main():
+    hight,width = map(int,input().split())
+    line = hight//2
+    e=top(hight,width,line)
+    bottom(e,width,line)    
     
 main()

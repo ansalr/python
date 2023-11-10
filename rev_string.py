@@ -1,5 +1,6 @@
 def rev_string(string):
 
+    # return string[::-1]
     revers = ""
     index = len(string)
     value = list(string)
@@ -9,8 +10,9 @@ def rev_string(string):
         revers += value[index]
         
 
-
+    
     return revers
+
 
 print(rev_string("ansal"))
 

@@ -2,7 +2,8 @@
 
 def ProductSmallestPair(sum, arr)
 
-The function accepts an integers sum and an integer array arr of size n. Implement the function to find the pair, (arr[j], arr[k]) where j!=k, Such that arr[j] and arr[k] are the least two elements of array (arr[j] + arr[k] <= sum) and return the product of element of this pair
+The function accepts an integers sum and an integer array arr of size n. Implement the function to find the pair, (arr[j], arr[k]) where j!=k, 
+Such that arr[j] and arr[k] are the least two elements of array (arr[j] + arr[k] <= sum) and return the product of element of this pair
 
 NOTE
 
@@ -38,16 +39,15 @@ Arr:9 8 3 -7 3 9
 Sample Output -21  """
 
 def ProductSmallestPair(sum, arr):
+    a = sorted(arr)
+    sum_arr = a[0]+a[1]
 
     if (len(arr))<=2 or sum <=2:
         return -1
+    elif(sum_arr <= sum):        
+        return a[0]*a[1]
     else:
-
-        a = sorted(arr)
-        sum_arr = a[0]+a[1]
-        if sum_arr <= sum:
-            return a[0]*a[1]
-    
+        return 0
 
 sum = int(input())
 arr = list(map(int,input().split()))

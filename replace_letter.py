@@ -26,6 +26,8 @@ Explanation:
 
 
 def replace(s,ch1,ch2):
+    # s = s.replace(ch1,'*').replace(ch2,ch1).replace('*',ch2)
+    # print(s)
     string = list(s)
     new_str = []
     index = -1

@@ -6,51 +6,37 @@
 # demonstrate private members
 
 # Creating a Derived class
+""" 
+a = int(input())
+b = 0
+for i in range(a):
+    c = int(input())
+    b+=c 
 
 
-class Base:
-	def __init__(self):
-		self.a = "Geeks"
-		self.__c = "GeeksforGeeks"
-		print(self.__c)
-
-# Creating a derived class
-class Derived(Base):
-	def __init__(self):
-
-		# Calling constructor of
-		# Base class
-		Base.__init__(self)
-		print("Calling private member of base class: ")
-		print(self.__c)
-
-
-# Driver code
-Derived()
-# print(Base())
-
-# Uncommenting print(obj1.c) will
-# raise an AttributeError
-
-# Uncommenting obj2 = Derived() will
-# also raise an AttributeError as
-# private member of base class
-# is called inside derived class
+print(b*a) 
+        
+n = []
+for i in range(5):
+    n+=[i]
+print(n)
 
 
 
 
 
-
-
-
-
-
-"""import datetime as datetime
+ import datetime as datetime
 today = datetime.datetime.now()
 print(today.day)
 print(today.month)
 print(today.year)
 print(today.hour-12)
 print(today.minute)
-print(today.second)"""
+print(today.second)  """
+
+import random
+num1=random.randint(450,950)-450
+num2=random.randint(450,950)-450
+avg=(num1+num2)/2
+print("the number ",num1,num2)
+print(avg)
