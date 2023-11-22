@@ -22,6 +22,8 @@ class employee(pearson):
     def details(self):
         print(f"name : {self.name}")
         print(f"id number : {self.idnum}")
-        print(f"post {self.post}")
+        print(f"salary : {self.salary}")
+        print(f"post :{self.post}")
        
 a = employee("ansal",14423,200000, "Intern")
+a.details()

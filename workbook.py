@@ -1,3 +1,34 @@
+n = 1000000000
+a = 0
+b = 1
+for i in range(2,n):
+      
+    c = a+b
+    a = b
+    b = c
+print(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # print(f"{(lambda a,b:a*b)(4,3)}")
 # Python program to
 # demonstrate protected members
@@ -32,7 +63,7 @@ print(today.month)
 print(today.year)
 print(today.hour-12)
 print(today.minute)
-print(today.second)  """
+print(today.second)  
 
 import random
 num1=random.randint(450,950)-450
@@ -40,3 +71,4 @@ num2=random.randint(450,950)-450
 avg=(num1+num2)/2
 print("the number ",num1,num2)
 print(avg)
+"""
