@@ -9,6 +9,52 @@ for i in range(2,n):
 print(c)
 
 
+"""
+c = ")("
+c.split()
+string = list(c)
+value = []
+index1 = []
+
+for i in string:
+    if i == '(':
+        value.append('a')
+    elif i == ')':
+        value.append('b')
+
+print(value)
+
+for _ in range(((len(string))%2)+1):
+    index1 = []
+    for i in range(len(value)-1):
+        value1 = value[i]
+        value2 = value[i+1]
+        
+        if value1 == 'a' and value2 == 'b':
+            index1.append(i)
+            index1.append(i+1)
+    
+    index1.sort(reverse = True)
+            
+    print(index1)
+    for i in index1:
+        value.pop(i)
+    
+print(value)
+print("number of ( : ",value.count('a'))
+print("number of ) : ",value.count('b'))
+
+        
+        
+    
+
+
+
+
+
+"""
+
+
 
 
 
