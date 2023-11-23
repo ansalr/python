@@ -45,7 +45,35 @@ print("number of ( : ",value.count('a'))
 print("number of ) : ",value.count('b'))
 
         
-        
+
+shedule = ["09:30am - 10:30am", "01:30pm - 03:00pm", "11:45am - 02:00pm", "10:45am - 12:30pm", "10:50am - 12:10pm" ]
+time = []
+break1 = []
+duration = []
+for i in shedule:
+    a = i.split()
+    for j in a:
+        if j != '-':
+            b = j[-2:]
+            num1 = j[:2]
+            num2 = j[3:5]
+            
+
+            if b == 'pm':
+                
+                cal = int(num1)*60 + int(num2) + 12
+                
+                print(cal)
+                
+            else:
+                
+                cal = int(num1)*60 + int(num2)
+                print(cal)
+                
+                
+            
+            time.append(j)
+
     
 
 
