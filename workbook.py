@@ -13,6 +13,80 @@ while w < 5:
 # {'ansal': 95, 'suresh': 90, 'raj': 99, 'ansalrobinson': 100}
 
 
+"""
+c = ")("
+c.split()
+string = list(c)
+value = []
+index1 = []
+
+for i in string:
+    if i == '(':
+        value.append('a')
+    elif i == ')':
+        value.append('b')
+
+print(value)
+
+for _ in range(((len(string))%2)+1):
+    index1 = []
+    for i in range(len(value)-1):
+        value1 = value[i]
+        value2 = value[i+1]
+        
+        if value1 == 'a' and value2 == 'b':
+            index1.append(i)
+            index1.append(i+1)
+    
+    index1.sort(reverse = True)
+            
+    print(index1)
+    for i in index1:
+        value.pop(i)
+    
+print(value)
+print("number of ( : ",value.count('a'))
+print("number of ) : ",value.count('b'))
+
+        
+
+shedule = ["09:30am - 10:30am", "01:30pm - 03:00pm", "11:45am - 02:00pm", "10:45am - 12:30pm", "10:50am - 12:10pm" ]
+time = []
+break1 = []
+duration = []
+for i in shedule:
+    a = i.split()
+    for j in a:
+        if j != '-':
+            b = j[-2:]
+            num1 = j[:2]
+            num2 = j[3:5]
+            
+
+            if b == 'pm':
+                
+                cal = int(num1)*60 + int(num2) + 12
+                
+                print(cal)
+                
+            else:
+                
+                cal = int(num1)*60 + int(num2)
+                print(cal)
+                
+                
+            
+            time.append(j)
+
+    
+
+
+
+
+
+"""
+
+
 
 
 
