@@ -1,12 +1,16 @@
-n = 1000000000
-a = 0
-b = 1
-for i in range(2,n):
-      
-    c = a+b
-    a = b
-    b = c
-print(c)
+for i in range(10):
+    print(i)
+
+print("while loop")
+w = 1
+while w < 5:
+    print(w)
+    w = w+1
+
+
+
+
+# {'ansal': 95, 'suresh': 90, 'raj': 99, 'ansalrobinson': 100}
 
 
 
@@ -26,6 +30,38 @@ print(c)
 
 
 
+
+
+"""
+def generate_opposite_string(s):
+    opposite_string = ''.join(chr(ord('a') + ord('z') - ord(c)) for c in s)
+    return opposite_string
+
+
+
+T = int(input())
+for _ in range(T):
+    A = input().strip()
+    B = generate_opposite_string(A)
+    print(B)
+
+
+
+c = 15
+amount = 0
+balance = c%10
+cal = c//10
+amount = cal
+if balance == 0:
+    cal = c/10
+    print(int(cal))
+    
+else :
+    if balance % 5 == 0 :
+        amount +=1
+        print(amount)
+    else:
+        print("-1") """
 
 
 
