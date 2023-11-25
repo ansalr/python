@@ -1,16 +1,5 @@
-for i in range(10):
-    print(i)
+n = 17%7
 
-print("while loop")
-w = 1
-while w < 5:
-    print(w)
-    w = w+1
-
-
-
-
-# {'ansal': 95, 'suresh': 90, 'raj': 99, 'ansalrobinson': 100}
 
 
 """
