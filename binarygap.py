@@ -7,7 +7,7 @@ def cal_binary(value):
 
 def max_zero(value):
     count ,max_0= 0,0
-    for i in value:
+    for i in list(value):
         if i == '0':
             count += 1
             
@@ -17,8 +17,10 @@ def max_zero(value):
     return max_0
                     
 
-inpt = int(input())
-b1 = cal_binary(inpt)
-print(b1)
-print(max_zero(b1))
+
+
+
+def solution(N):
+    b1 = cal_binary(N)
+    return max_zero(b1)
 
