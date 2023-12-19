@@ -1,9 +1,5 @@
-n = 17%7
-
-
 
 """
-c = ")("
 c.split()
 string = list(c)
 value = []
@@ -63,39 +59,8 @@ for i in shedule:
                 cal = int(num1)*60 + int(num2)
                 print(cal)
                 
-                
-            
             time.append(j)
 
-    
-
-
-
-
-
-"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
 def generate_opposite_string(s):
     opposite_string = ''.join(chr(ord('a') + ord('z') - ord(c)) for c in s)
     return opposite_string

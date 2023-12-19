@@ -57,6 +57,8 @@ inbuild Function :
 
 Function :
      --> 
+
+
 Object Oriented Programming :
 
      --> Class 
@@ -70,6 +72,11 @@ Class :
 A class is a collection of instance variables and related methods that define a particular object type. You can think of a class as an object's blueprint or template. 
 Attributes are the names given to the variables that make up a class. A class instance with a defined set of properties is called an object. As a result, the same class can be used to construct as many objects as needed.
 
+Object :
+     def __str__(self):
+        return f"Node Class"
+
+     it print the string instead of oblect location
 Encapsulation :
             Encapsulation is the process of preventing clients from accessing certain properties, which can only be accessed through specific methods.
 
@@ -126,3 +133,7 @@ Interfaces, on the other hand, are used to define a set of methods that must be 
 
 Sorting :
 https://www.baeldung.com/cs/choose-sorting-algorithm
+
+
+Data Structure:
+hi!
